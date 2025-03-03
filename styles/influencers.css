@@ -1,0 +1,33 @@
+.influencers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-top: 8px;
+    margin-bottom: 12px;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.influencers p{
+    margin-top: 3px;
+    font-size: 12px;
+}
+.influencers a{
+    text-decoration: none;
+    color:black;
+}
+.profile-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: rgb(237, 76, 188);
+    border-style: solid;
+    box-sizing: border-box;  /* 让 border 包含在内 */
+
+}

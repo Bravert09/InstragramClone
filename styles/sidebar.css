@@ -1,0 +1,77 @@
+.sidebar{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 220px;
+    bottom: 0;
+    background-color: rgba(244, 244, 244,0.11);
+    padding: 8px 12px 20px;
+    border-right: 1px solid rgb(213, 213, 213);
+}
+.top-section{
+    height: 60px;
+    padding-top: 10px;
+}
+.instagram-logo{
+    margin-left: 16px;
+    margin-top: 25px;
+}
+.instagram-logo:hover{
+    cursor: pointer;
+}
+
+.middle-section{
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+
+}
+.icon-container
+{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+
+}
+.icon-container:hover{
+    background-color: rgba(224, 224, 224,0.5);
+}
+.nav-icon{
+    height: 24px;
+    width: 24px;
+    padding-right: 16px;
+}
+.myprofile{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    
+}
+.mainpage{
+    padding-left: 16px;
+}
+.middle-section p{
+    font-size: 17px;
+
+}
+.home{
+    font-weight: 600;
+    color: black;
+}
+
+.bottom-section{
+    height: 60px;
+    text-align: left;
+
+
+}
+.more{
+    display: inline-block;
+}

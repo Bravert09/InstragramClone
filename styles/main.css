@@ -1,0 +1,222 @@
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+    width: 1014px;
+
+}
+.left-section{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.post-container{
+    width: 470px;
+    margin:0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+.author-pic-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-size:14px ;
+}
+
+.tooltip-container{
+    position: relative;
+}
+.tooltip{
+    position: absolute;
+    left: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 385px;
+    height: 350px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:0 0 10px 5px rgba(0, 0,0,0.08) ;
+    pointer-events: none;
+}
+.tooltip-container:hover .tooltip{
+    opacity: 1;
+    cursor: pointer;
+}
+.tooltip .brand{
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.tooltip .brand .author-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border-width:0;
+}
+.tooltip .brand .author-details-container{
+    margin-left: 10px;
+}
+.tooltip .brand .author-name-container{
+    display: flex;
+    
+}
+.tooltip p{
+    font-size: 16px;
+}
+.tooltip .pictures{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tooltip .data-container{
+    width: 130px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    
+}
+.tooltip .data-container img{
+    width: 125px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+.tooltip .data-container p{
+    font-size: 16px;
+}
+.data-container .count{
+    font-weight: 600;
+}
+
+
+.tooltip .buttons{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tooltip .send{
+    background-color: rgb(31, 140, 241);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 58px;
+    border: none;
+    border-radius: 8px;
+}
+.buttons .followed{
+    background-color: rgb(237, 237, 237);
+    color: rgb(54, 54, 54);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 58px;
+    border: none;
+    border-radius: 8px;
+  
+}
+
+.author-pic{
+    height: 44px;
+    width: 44px;
+    border-radius: 22px;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing:border-box;
+    border-color: rgb(248, 36, 159);
+}
+.verify{
+    margin-left: 6px;
+}
+.dot{
+    margin-left: 6px;
+    color: rgb(65, 65, 65);
+    ;
+}
+.post-time{
+    margin-left: 6px;
+    color: rgb(65, 65, 65);
+    font-weight: 500;
+}
+
+.author-detail-container{
+    margin-left: 10px;
+}
+.author-name{
+    font-weight: 600;
+}
+.tooltip-container a{
+    text-decoration: none;
+    color: black;
+}
+.author-location{
+    font-size: 13px;
+}
+.channel-pic{
+    width: 470px;
+}
+
+
+.post-icons{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.left-icons-container{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.like-users{
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.post-bottom-section .author-name{
+    color: black;
+}
+.post-into{
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+}
+.check-translation{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 6px
+}
+.check-comments{
+    margin-bottom: 6px;
+    color: rgb(65, 65, 65);
+
+}
+.add-comment-container{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(65, 65, 65);
+
+}
+.line {
+    height: 1px;  /* 线的高度 */
+    background-color: #ccc;  /* 线的颜色 */
+    margin: 20px 0;  /* 上下间距 */
+}
